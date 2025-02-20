@@ -19,6 +19,18 @@ This program is designed to simplify the deployment of Levanter bots on a **Pter
 2. **Bot Configuration:** Edit the `bots.json` file to add the names of the bots you wish to run.
 3. **Run the Script:** Execute `index.js` to start deploying and managing your bots.
 
+## Session ID Setup
+
+To scan or generate your session ID, you can use this page: **[https://qr-hazel-alpha.vercel.app](https://qr-hazel-alpha.vercel.app)**
+
+1. **Open the link** above.
+2. **Check "Custom Session ID"** in the interface.
+3. **Enter the exact name** as specified in `bots.json` (e.g., `sharilbot` or `sharilbot2`).
+4. **Scan the QR code** (or use the provided methods) to complete the session setup.
+
+> **Why this matters:**  
+> The script automatically creates a session ID name based on your bot name in `bots.json`. If you do not match the session ID to the bot name, your bot may not start or link properly.
+
 ## File Structure
 
 - **index.js:** The main script for managing and running the bots.
@@ -26,4 +38,4 @@ This program is designed to simplify the deployment of Levanter bots on a **Pter
 
 ## Notes
 
-Ensure that each bot has a `package.json` file and the necessary dependencies, so the script can run the bot successfully. If any dependencies are missing, the script will automatically install them.
+Ensure that each bot has a `package.json` file and the necessary dependencies so that the script can run the bot successfully. If any dependencies are missing, the script will automatically install them.
