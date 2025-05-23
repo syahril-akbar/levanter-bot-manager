@@ -21,7 +21,7 @@ This program is designed to simplify the deployment of Levanter bots on a **Pter
 
 ## Session ID Setup
 
-To scan or generate your session ID, you can use this page: **[https://qr-hazel-alpha.vercel.app](https://qr-hazel-alpha.vercel.app)**
+To scan or generate your session ID, you can use this page: **[https://levanter-delta.vercel.app](https://levanter-delta.vercel.app)**
 
 1. **Open the link** above.
 2. **Check "Custom Session ID"** in the interface.
